@@ -24,3 +24,12 @@ function togglePage(el, page) {
 
     }
 }
+
+function openMenu() {
+    const menu = document.getElementsByClassName("menu")[0];
+    if (menu.classList.contains("expanded")) {
+        menu.classList.remove("expanded");
+    }else{
+        menu.classList.add("expanded")
+    }
+}

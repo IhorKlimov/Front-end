@@ -1445,8 +1445,132 @@ footer .container > * {
     background: white;
 }
 
+img {
+    object-fit: cover;
+}
 
+.menu .fa.fa-bars {
+    display: none;
+}
 
+@media only screen and (max-width: 600px) {
+    .services .container .row {
+    }
 
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    header {
+        background: url("person.jpg") no-repeat center top/cover;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #third .top {
+        flex-direction: column;
+    }
+
+    #third .top .left, #third .top .right_image {
+        width: 100%;
+    }
+
+    .menu .fa.fa-bars {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .menu {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        padding-bottom: 20px;
+        background: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: start;
+        z-index: 1;
+        box-shadow: none;
+    }
+
+    .menu i{
+        color: white;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+
+    }
+
+    #third .top .left {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .services.first .row .item, .services.first .row .item img {
+        width: 95%;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #third .bottom {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #third .bottom .right {
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .services .container .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .expandable-content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .services .container .row.page1.selected, .services .container .row.page2.selected, .services .container .row.page3.selected {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sixth .row .item {
+        width: 100%;
+    }
+
+    .menu #logo, .menu #menu-list {
+        display: none;
+    }
+
+    .menu.expanded {
+        background: white;
+        z-index: 10;
+        width: 70%;
+        box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+    }
+
+    .menu.expanded i{
+        color: black;
+    }
+
+    .menu.expanded #logo, .menu.expanded #menu-list {
+        display: inherit;
+    }
+
+    .input_row {
+        flex-direction: column;
+    }
+}
 
 

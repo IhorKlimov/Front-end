@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Front-end lab 8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="KPI, Front-end, HTML, CSS, JavaScript">
     <title>Клімов Ігор Сергійович, ІТ-з01, лаб 8, варіант 11</title>
     <link rel="stylesheet" href="style8.css">
@@ -12,11 +13,12 @@
 </head>
 <body>
 <div class="menu">
-    <div class="logo">
+    <i class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
+    <div id="logo" class="logo" >
         <img src="../logo.png" alt="">
         <h3>Repair</h3>
     </div>
-    <ul>
+    <ul id="menu-list">
         <li><a href="#">
             <div>Home</div>
         </a></li>
@@ -308,7 +310,7 @@
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
         </div>
 
-        <div class="row page1">
+        <div class="row page1 selected">
             <div class="item">
                 <img src="https://randomuser.me/api/portraits/women/29.jpg" alt="">
                 <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -396,7 +398,7 @@
         </div>
 
         <div class="selector">
-            <div class="page" onclick="togglePage(this, 1)"></div>
+            <div class="page selected" onclick="togglePage(this, 1)"></div>
             <div class="page" onclick="togglePage(this, 2)"></div>
             <div class="page" onclick="togglePage(this, 3)"></div>
         </div>
