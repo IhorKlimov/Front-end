@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Front-end lab 8">
+    <meta name="keywords" content="KPI, Front-end, HTML, CSS, JavaScript">
+    <title>Клімов Ігор Сергійович, ІТ-з01, лаб 8, варіант 11</title>
+    <link rel="stylesheet" href="style8.css">
+    <script type="text/javascript" src="script8.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="menu">
+    <div class="logo">
+        <img src="../logo.png" alt="">
+        <h3>Repair</h3>
+    </div>
+    <ul>
+        <li><a href="#">
+            <div>Home</div>
+        </a></li>
+        <li><a href="#">
+            <div>Services</div>
+        </a></li>
+        <li><a href="#">
+            <div>Price list</div>
+        </a></li>
+        <li><a href="#">
+            <div>Reviews</div>
+        </a></li>
+        <li><a href="#">
+            <div>Locations</div>
+        </a></li>
+        <li><a href="#">
+            <div>About</div>
+        </a></li>
+        <li><a href="#">
+            <div>Contact</div>
+        </a></li>
+    </ul>
+</div>
+
+<header>
+    <div class="container">
+        <div class="titles">
+            <div class="titles__first">Welcome to out Studio!</div>
+            <h2>It's nice to meet you</h2>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <a href="#" class="button">Tell me more</a>
+        </div>
+    </div>
+</header>
+
+<section class="services first">
+    <div class="container">
+        <h3>What we Offer to our Supporters</h3>
+        <div class="subtitle">Lorem ipsum dolor sit amet</div>
+        <div class="row">
+            <div class="item">
+                <img src="https://thelabrepair.com/wp-content/uploads/computer-repair-warsaw-indiana-1200x800.jpg"
+                     alt="">
+                <h4>Lorem ipsum dolor</h4>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+            </div>
+            <div class="item">
+                <img src="data:image/jpeg;base64,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"
+                     alt="">
+                <h4>Lorem ipsum dolor</h4>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://thelabrepair.com/wp-content/uploads/computer-repair-warsaw-indiana-1200x800.jpg"
+                     alt="">
+                <h4>Lorem ipsum dolor</h4>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://cdn.thezebra.com/zfront/media/production/images/iStock-1205228815.format-jpeg.jpg"
+                     alt="">
+                <h4>Lorem ipsum dolor</h4>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="third">
+    <div class="top">
+        <div class="left">
+            <h3>We can fix all types of computer & mobiles</h3>
+            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            </div>
+            <div class="row">
+                <div class="item">
+                    <img src="diamond.png" alt="">
+                    <h4>Expert Services</h4>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="call.png" alt="">
+                    <h4>Great Support</h4>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="right_image"
+             src="https://media.istockphoto.com/photos/mature-man-furnishing-new-house-a-new-home-concept-picture-id1130483116?k=20&m=1130483116&s=612x612&w=0&h=gXyP35ysRYY-SMgyH99ZHLhREua0ALn07Bksbf_47M0="
+             alt="">
+    </div>
+
+    <div class="bottom">
+        <div class="row">
+            <div class="left">
+                <h3>Enjoy 25% Seasonal Discount!</h3>
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                </div>
+                <a href="#" class="button">Tell me now</a>
+            </div>
+            <div class="right">
+                <h4>Get a free Estimate</h4>
+                <div class="line"></div>
+                <input type="text" placeholder="Your name">
+                <div class="line"></div>
+
+                <div class="input_row">
+                    <div>
+                        <input type="text" placeholder="Phone">
+                        <div class="line"></div>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Email">
+                        <div class="line"></div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 30px" class="line"></div>
+                <input type="text" placeholder="Message">
+
+                <a href="#" class="button">Tell me now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+        <h3>Our Working Process</h3>
+        <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        </div>
+        <div class="row fourth">
+            <div class="item">
+                <div class="card">
+                    <img src="bell.png" alt="">
+                </div>
+                <h4>Lorem ipsum dolor</h4>
+            </div>
+            <img src="arrow.png" alt="" class="arrow">
+            <div class="item">
+                <div class="card">
+                    <img src="star.png" alt="">
+                </div>
+                <h4>Lorem ipsum dolor</h4>
+            </div>
+            <img src="arrow.png" alt="" class="arrow">
+            <div class="item">
+                <div class="card">
+                    <img src="chart-histogram.png" alt="">
+                </div>
+                <h4>Lorem ipsum dolor</h4>
+            </div>
+            <img src="arrow.png" alt="" class="arrow">
+            <div class="item">
+                <div class="card">
+                    <img src="paper-plane.png" alt="">
+                </div>
+                <h4>Lorem ipsum dolor</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services fifth">
+    <div class="container">
+        <h3>Frequently Asked Questions</h3>
+        <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        </div>
+
+        <div class="expandable-content">
+            <div class="expandable" onclick="toggleExp(this)">
+                <div>Success</div>
+                <i class="fa fa-arrow-right"></i>
+                <i class="fa fa-arrow-down"></i>
+            </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            </div>
+        </div>
+
+        <div class="expandable-content">
+            <div class="expandable" onclick="toggleExp(this)">
+                <div>Details</div>
+                <i class="fa fa-arrow-right"></i>
+                <i class="fa fa-arrow-down"></i>
+            </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            </div>
+        </div>
+
+        <div class="expandable-content">
+            <div class="expandable" onclick="toggleExp(this)">
+                <div>Efficiency</div>
+                <i class="fa fa-arrow-right"></i>
+                <i class="fa fa-arrow-down"></i>
+            </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            </div>
+        </div>
+
+        <div class="expandable-content">
+            <div class="expandable" onclick="toggleExp(this)">
+                <div>Ecology</div>
+                <i class="fa fa-arrow-right"></i>
+                <i class="fa fa-arrow-down"></i>
+            </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            </div>
+        </div>
+
+        <div class="row percentage">
+            <div class="item">
+                <div class="c100 p80 big">
+                    <span>80%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <div class="subtitle">Lorem ipsum</div>
+            </div>
+            <div class="item">
+                <div class="c100 p75 big">
+                    <span>75%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <div class="subtitle">Lorem ipsum</div>
+            </div>
+            <div class="item">
+                <div class="c100 p60 big">
+                    <span>60%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <div class="subtitle">Lorem ipsum</div>
+            </div>
+            <div class="item">
+                <div class="c100 p90 big">
+                    <span>90%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <div class="subtitle">Lorem ipsum</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services sixth">
+    <div class="container">
+        <h3>Feedback from our users</h3>
+        <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        </div>
+
+        <div class="row page1">
+            <div class="item">
+                <img src="https://randomuser.me/api/portraits/women/29.jpg" alt="">
+                <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+                <div class="name">Emily Welch</div>
+                <div class="subtitle">Lorem ipsum</div>
+            </div>
+
+            <div class="item">
+                <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="">
+                <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+                <div class="name">Meghan Gonzales</div>
+                <div class="subtitle">Lorem ipsum</div>
+            </div>
+
+            <div class="item">
+                <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="">
+                <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+                <div class="name">Gina Peck</div>
+                <div class="subtitle">Lorem ipsum</div>
+            </div>
+        </div>
+
+        <div class="row page2">
+            <div class="item">
+                <img src="https://randomuser.me/api/portraits/women/88.jpg" alt="">
+                <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+                <div class="name">Tara Vasquez</div>
+                <div class="subtitle">Lorem ipsum</div>
+            </div>
+
+            <div class="item">
+                <img src="https://randomuser.me/api/portraits/men/43.jpg" alt="">
+                <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+                <div class="name">Leslie Gregory</div>
+                <div class="subtitle">Lorem ipsum</div>
+            </div>
+
+            <div class="item">
+                <img src="https://randomuser.me/api/portraits/men/26.jpg" alt="">
+                <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+                <div class="name">Ralph Chapman</div>
+                <div class="subtitle">Lorem ipsum</div>
+            </div>
+        </div>
+
+        <div class="row page3">
+            <div class="item">
+                <img src="https://randomuser.me/api/portraits/women/11.jpg" alt="">
+                <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+                <div class="name">Mae Cook</div>
+                <div class="subtitle">Lorem ipsum</div>
+            </div>
+
+            <div class="item">
+                <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="">
+                <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+                <div class="name">Gabriella Perry</div>
+                <div class="subtitle">Lorem ipsum</div>
+            </div>
+
+            <div class="item">
+                <img src="https://randomuser.me/api/portraits/women/23.jpg" alt="">
+                <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+                <div class="name">Gertrude Castro</div>
+                <div class="subtitle">Lorem ipsum</div>
+            </div>
+        </div>
+
+        <div class="selector">
+            <div class="page" onclick="togglePage(this, 1)"></div>
+            <div class="page" onclick="togglePage(this, 2)"></div>
+            <div class="page" onclick="togglePage(this, 3)"></div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
